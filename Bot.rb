@@ -17,12 +17,12 @@ class Bot
 
 	#greeting function
 	def greeting
-		random_index(:greeting)
+		random_index :greeting
 	end
 
 	#farewell function
 	def farewell
-		random_index(:farewell)
+		random_index :farewell
 	end
 
 	private
