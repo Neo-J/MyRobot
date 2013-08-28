@@ -25,7 +25,23 @@ class Bot
 		random_index :farewell
 	end
 
+	#The core function of the program
+	#This funtion use some private funtions to work
+	def response_to(input)
+		prepared_input = preprocess(input).downcase
+	end
+
 	private
+
+	#presub some words
+	def preprocess(input)
+		perform_substitutions input
+	end
+
+	def perform_substitutions(input)
+		@data[:presubs].each{|s|input.gsub!(s[0],s[1])}
+		input
+	end
 
 	#a random function
 	def random_response(key)
