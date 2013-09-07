@@ -15,6 +15,7 @@ bot_data = {
 		:greeting => ["Hi,I'm [name].Want to chat?","What's on your mind today?","Hi.What would you like to talk about"],
 		:farewell => ["Good bye","Au revoir!"],
 		'hello' => ["How's it going?","How do you do?","Enough of the pleasantries!"],
+		'shit' => ["What are you f**king saying?"],
 		'sorry' => ["There's no need to apologize."],
 		'different' => ["How is it different?","What has changed?"],
 		'everyone *' => ["You think everyone *?"],
